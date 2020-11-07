@@ -1,0 +1,3 @@
+C:\ESTUDOS .NET\RockMessenger\RockMessenger.App\RockMessenger.App.Android\obj\Debug\51\MonoAndroid,Version=v5.1.AssemblyAttributes.cs
+C:\ESTUDOS .NET\RockMessenger\RockMessenger.App\RockMessenger.App.Android\obj\Debug\51\build.props
+C:\ESTUDOS .NET\RockMessenger\RockMessenger.App\RockMessenger.App.Android\obj\Debug\51\adb.props

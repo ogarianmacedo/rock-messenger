@@ -1,0 +1,134 @@
+﻿@section style {
+    <style type="text/css">
+        .footer {
+            background-color: #153607 !important;
+            padding: 2rem 1.5rem 2rem;
+            display: none;
+            position: fixed;
+        }
+
+        .column article {
+            padding: 0 !important;
+        }
+
+        .input.is-success, .textarea.is-success {
+            border-color: #153607;
+        }
+
+        .input.is-success:focus, .input.is-success.is-focused, .input.is-success:active, .input.is-success.is-active {
+            box-shadow: 0 0 0 0.125em #153607;
+        }
+
+        .button.is-primary:focus:not(:active), .button.is-primary.is-focused:not(:active) {
+            box-shadow: 0 0 0 0.125em #153607;
+        }
+
+        .button.is-primary {
+            background-color: #101d0a;
+        }
+
+        .mbottom {
+            margin-bottom: 10px;
+            padding: 10px;
+        }
+
+        .mbottom:hover {
+            cursor: pointer;
+        }
+
+        .mg-bottom-column {
+            margin-bottom: 8% !important;
+        }
+
+        .sidenav {
+            height: 100%;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            overflow-x: hidden;
+            background: #101d0a;
+        }
+
+        .tag-radius {
+            border-radius: 20px !important;
+        }
+
+        .message-body {
+            padding: 10px 1.5em;
+        }
+
+        .container-message {
+            overflow-y: hidden;
+            height: 450px;
+        }
+
+        .button.is-rounded {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background-color: #F4F4F4;
+        }
+
+        ::-webkit-scrollbar {
+            width: 8px;
+            background: #F4F4F4;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #b4b4b4;
+        }
+    </style>
+}
+
+<section class="section">
+    <div class="columns mg-bottom-column">
+        @* MENU *@
+        <div class="column is-3 sidenav">
+            <aside class="menu">
+                <p class="menu-label">
+                    <img class="is-rounded" src="~/img/rock-messenger.png" />
+                </p>
+                
+                <ul class="menu-list" id="usuarios">
+                </ul>
+
+                <br />
+                <div class="columns">
+                    <div class="column is-4 is-offset-4">
+                        <a class="button is-ghost is-rounded" id="btn-sair">
+                            <span class="icon">
+                                <i class="fas fa-sign-out-alt"></i>
+                            </span>
+                            <span>Sair</span>
+                        </a>
+                    </div>
+                </div>
+            </aside>
+        </div>
+
+        @* MENSAGENS *@
+        <div class="column is-9 is-offset-3 container-message" id="tela-mensagens">
+        </div>
+    </div>
+</section>
+
+<footer class="footer column is-9 is-offset-3 p-5">
+    <div class="columns">
+        <div class="column is-11">
+            <div class="control has-icons-right">
+                <input id="mensagem" class="input is-rounded is-success" type="text" placeholder="Mensagem">
+            </div>
+        </div>
+
+        <div class="column is-1">
+            <button id="btn-enviar" class="button is-primary is-rounded">
+                <span class="icon">
+                    <i class="fas fa-paper-plane"></i>
+                </span>
+            </button>
+        </div>
+    </div>
+</footer>

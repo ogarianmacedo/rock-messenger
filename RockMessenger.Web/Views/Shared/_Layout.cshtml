@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Messenger</title>
+
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link href="~/lib/bulma/css/main.css" rel="stylesheet" />
+    <link href="~/lib/fontawesome/all.css" rel="stylesheet" />
+    <link href="~/lib/toastr/toastr.css" rel="stylesheet" />
+    @RenderSection("style", false)
+</head>
+<body>
+    @RenderBody()
+
+    <script src="~/lib/aspnet/signalr/dist/browser/signalr.min.js"></script>
+    <script src="~/lib/msgpack5/dist/msgpack5.js"></script>
+    <script src="~/lib/microsoft/signalr-protocol-msgpack/dist/browser/signalr-protocol-msgpack.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/lib/bulma/javascript/main.js"></script>
+    <script src="~/lib/fontawesome/all.js"></script>
+    <script src="~/lib/jquery/dist/jquery.js"></script>
+    <script src="~/lib/toastr/toastr.js"></script>
+</body>
+</html>

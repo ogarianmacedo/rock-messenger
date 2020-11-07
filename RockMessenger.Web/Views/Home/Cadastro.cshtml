@@ -1,0 +1,66 @@
+﻿@section style {
+    <style type="text/css">
+        .card {
+            background-color: #101d0a !important;
+            border-radius: 20px;
+        }
+    </style>
+}
+
+<section class="section">
+    <div class="columns">
+        <div class="column is-4 is-offset-4">
+            <div class="card" id="form-cadastro">
+                <div class="card-header-title is-centered">
+                    <figure class="image">
+                        <img src="~/img/logo-login.png">
+                    </figure>
+                </div>
+                <div class="card-content">
+                    <div class="field">
+                        <p class="control has-icons-left has-icons-right">
+                            <input class="input is-rounded" type="text" id="nome" placeholder="Nome">
+                            <span class="icon is-small is-left">
+                                <i class="fas fa-user"></i>
+                            </span>
+                        </p>
+                    </div>
+
+                    <div class="field">
+                        <p class="control has-icons-left has-icons-right">
+                            <input class="input is-rounded" type="email" id="email" placeholder="E-mail">
+                            <span class="icon is-small is-left">
+                                <i class="fas fa-envelope"></i>
+                            </span>
+                        </p>
+                    </div>
+
+                    <div class="field">
+                        <p class="control has-icons-left">
+                            <input class="input is-rounded" type="password" id="senha" placeholder="Senha">
+                            <span class="icon is-small is-left">
+                                <i class="fas fa-lock"></i>
+                            </span>
+                        </p>
+                    </div>
+
+                    <div class="buttons is-right">
+                        <a class="button is-primary is-rounded" id="btn-cadastrar">
+                            <span class="icon">
+                                <i class="fas fa-save"></i>
+                            </span>
+                            <span>Salvar</span>
+                        </a>
+
+                        <a class="button is-primary is-rounded" asp-controller="Home" asp-action="Login">
+                            <span class="icon">
+                                <i class="fas fa-sign-in-alt"></i>
+                            </span>
+                            <span>Login</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
