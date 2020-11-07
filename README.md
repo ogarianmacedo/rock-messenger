@@ -1,3 +1,3 @@
 # projeto-rock-messenger
 
-### Projeto de estudo - Asp.NET Core 2.2 com Angular 9
+### Projeto de estudo - Asp.NET Core 3.1 e Xamarin
