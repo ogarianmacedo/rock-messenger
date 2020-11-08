@@ -18,4 +18,3 @@ C:\ESTUDOS .NET\RockMessenger\RockMessenger.App\RockMessenger.App\obj\Debug\nets
 C:\ESTUDOS .NET\RockMessenger\RockMessenger.App\RockMessenger.App\obj\Debug\netstandard2.0\RockMessenger.App.dll
 C:\ESTUDOS .NET\RockMessenger\RockMessenger.App\RockMessenger.App\obj\Debug\netstandard2.0\ref\RockMessenger.App.dll
 C:\ESTUDOS .NET\RockMessenger\RockMessenger.App\RockMessenger.App\obj\Debug\netstandard2.0\RockMessenger.App.pdb
-C:\ESTUDOS .NET\RockMessenger\RockMessenger.App\RockMessenger.App\obj\Debug\netstandard2.0\RockMessenger.App.csprojAssemblyReference.cache

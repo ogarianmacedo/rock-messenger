@@ -31,7 +31,6 @@ namespace RockMessenger.App
                 {
                     Usuario usuario = new Usuario { Email = email, Senha = senha };
 
-                    Mensagem.Text = string.Empty;
                     BtnEntrar.IsEnabled = false;
                     Carregando.IsRunning = true;
 
@@ -42,7 +41,6 @@ namespace RockMessenger.App
 
         public void SetMensagem(string msg)
         {
-            Mensagem.Text = msg;
             BtnEntrar.IsEnabled = true;
             Carregando.IsRunning = false;
 

@@ -37,7 +37,6 @@ namespace RockMessenger.App
                         Senha = senha
                     };
 
-                    Mensagem.Text = string.Empty;
                     BtnCadastrar.IsEnabled = false;
                     Carregando.IsRunning = true;
 
@@ -48,8 +47,6 @@ namespace RockMessenger.App
 
         public void SetMensagem(string msg, bool isErro)
         {
-            Mensagem.TextColor = (isErro) ? Color.Red : Color.White;
-            Mensagem.Text = msg;
             BtnCadastrar.IsEnabled = true;
             Carregando.IsRunning = false;
 
