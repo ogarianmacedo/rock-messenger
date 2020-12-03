@@ -24,7 +24,7 @@ function ConnectionStart() {
 connection.onclose(async () => { await ConnectionStart(); });
 
 /**
- * Global 
+ * var global 
  */
 var nomeGrupo = "";
 

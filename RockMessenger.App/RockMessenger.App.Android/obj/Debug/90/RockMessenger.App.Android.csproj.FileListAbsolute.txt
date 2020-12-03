@@ -1,9 +1,9 @@
+C:\ESTUDOS .NET\RockMessenger\RockMessenger.App\RockMessenger.App.Android\bin\Debug\com.companyname.rockmessenger.app-Signed.apk
 C:\ESTUDOS .NET\RockMessenger\RockMessenger.App\RockMessenger.App.Android\bin\Debug\RockMessenger.App.Android.dll
 C:\ESTUDOS .NET\RockMessenger\RockMessenger.App\RockMessenger.App.Android\bin\Debug\RockMessenger.App.Android.pdb
 C:\ESTUDOS .NET\RockMessenger\RockMessenger.App\RockMessenger.App.Android\bin\Debug\com.companyname.rockmessenger.app.apk
 C:\ESTUDOS .NET\RockMessenger\RockMessenger.App\RockMessenger.App.Android\bin\Debug\com.companyname.rockmessenger.app.aab
 C:\ESTUDOS .NET\RockMessenger\RockMessenger.App\RockMessenger.App.Android\bin\Debug\com.companyname.rockmessenger.app-Signed.aab
-C:\ESTUDOS .NET\RockMessenger\RockMessenger.App\RockMessenger.App.Android\bin\Debug\com.companyname.rockmessenger.app-Signed.apk
 C:\ESTUDOS .NET\RockMessenger\RockMessenger.App\RockMessenger.App.Android\bin\Debug\com.companyname.rockmessenger.app-Signed.apk.idsig
 C:\ESTUDOS .NET\RockMessenger\RockMessenger.App\RockMessenger.App.Android\bin\Debug\RockMessenger.App.dll
 C:\ESTUDOS .NET\RockMessenger\RockMessenger.App\RockMessenger.App.Android\bin\Debug\Newtonsoft.Json.dll

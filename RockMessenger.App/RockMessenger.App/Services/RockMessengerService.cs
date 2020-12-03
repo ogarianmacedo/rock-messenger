@@ -20,7 +20,7 @@ namespace RockMessenger.App.Services
             if (_connection == null)
             {
                 _connection = new HubConnectionBuilder()
-                    .WithUrl("https://rockmessengerweb20201105121821.azurewebsites.net/RockMessengerHub")
+                    .WithUrl("http://localhost:5000/RockMessengerHub")
                     .AddMessagePackProtocol()
                     .Build();
             }

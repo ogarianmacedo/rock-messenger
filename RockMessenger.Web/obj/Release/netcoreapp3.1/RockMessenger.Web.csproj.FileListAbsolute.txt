@@ -2,7 +2,6 @@ C:\ESTUDOS .NET\RockMessenger\RockMessenger.Web\bin\Release\netcoreapp3.1\appset
 C:\ESTUDOS .NET\RockMessenger\RockMessenger.Web\bin\Release\netcoreapp3.1\appsettings.json
 C:\ESTUDOS .NET\RockMessenger\RockMessenger.Web\bin\Release\netcoreapp3.1\libman.json
 C:\ESTUDOS .NET\RockMessenger\RockMessenger.Web\bin\Release\netcoreapp3.1\Properties\launchSettings.json
-C:\ESTUDOS .NET\RockMessenger\RockMessenger.Web\bin\Release\netcoreapp3.1\Properties\ServiceDependencies\RockMessengerWeb20201105121821 - Web Deploy\profile.arm.json
 C:\ESTUDOS .NET\RockMessenger\RockMessenger.Web\bin\Release\netcoreapp3.1\RockMessenger.Web.exe
 C:\ESTUDOS .NET\RockMessenger\RockMessenger.Web\bin\Release\netcoreapp3.1\RockMessenger.Web.deps.json
 C:\ESTUDOS .NET\RockMessenger\RockMessenger.Web\bin\Release\netcoreapp3.1\RockMessenger.Web.runtimeconfig.json
@@ -157,3 +156,4 @@ C:\ESTUDOS .NET\RockMessenger\RockMessenger.Web\bin\Release\netcoreapp3.1\Micros
 C:\ESTUDOS .NET\RockMessenger\RockMessenger.Web\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.SignalR.Common.dll
 C:\ESTUDOS .NET\RockMessenger\RockMessenger.Web\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.SignalR.Protocols.MessagePack.dll
 C:\ESTUDOS .NET\RockMessenger\RockMessenger.Web\bin\Release\netcoreapp3.1\System.IO.Pipelines.dll
+C:\ESTUDOS .NET\RockMessenger\RockMessenger.Web\bin\Release\netcoreapp3.1\Properties\ServiceDependencies\RockMessengerWeb - Web Deploy\profile.arm.json

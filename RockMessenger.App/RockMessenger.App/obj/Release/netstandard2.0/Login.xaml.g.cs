@@ -26,9 +26,6 @@ namespace RockMessenger.App {
         private global::Xamarin.Forms.Button BtnEntrar;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
-        private global::Xamarin.Forms.Label Mensagem;
-        
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private global::Xamarin.Forms.ActivityIndicator Carregando;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
@@ -37,7 +34,6 @@ namespace RockMessenger.App {
             Email = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::RockMessenger.App.Components.ClearEntry>(this, "Email");
             Senha = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::RockMessenger.App.Components.ClearEntry>(this, "Senha");
             BtnEntrar = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "BtnEntrar");
-            Mensagem = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Label>(this, "Mensagem");
             Carregando = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.ActivityIndicator>(this, "Carregando");
         }
     }
